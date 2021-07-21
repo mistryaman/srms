@@ -1,5 +1,5 @@
 <?php
-session_start(); // Must start session first thing
+session_start(); 
 
 // Here we run a login check
 if (!isset($_SESSION['id'])) { 
