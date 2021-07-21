@@ -6,7 +6,7 @@ if (!isset($_SESSION['id'])) {
    echo 'Please <a href="login.php">log in</a> to access your account';
    exit(); 
 }
-//Connect to the database through our include 
+
 include_once "database.php";
 
 // Place Session variable 'id' into local variable
