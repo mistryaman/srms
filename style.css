@@ -1,0 +1,92 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* padding-left:250px; */
+}
+input{
+    width:20%;
+    padding:10px 20px;
+    border: 1px solid lightsalmon;
+}
+input[type='submit']{
+        width: 17%;
+        background-color:lightsalmon;
+        color: #000;
+        font-size: 15px;    
+}
+input[type='submit']:hover{
+    width: 17%;
+    background-color:saddlebrown;
+    color: #fff;
+    font-size: 15px;
+    
+}
+button{
+        width: 17%;
+        background-color:lightsalmon;
+        color: #fff;
+        font-size: 15px;
+        padding: 10px 20px;
+        border: none;
+}
+button:hover{
+        width: 17%;
+        background-color:saddlebrown;
+        color: #fff;
+        font-size: 15px;
+    }
+select{
+    width: 17%;
+    color: #000;
+    font-size: 15px;
+}
+span{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.table{
+    font-family: verdana;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  
+.table td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+.table tr:nth-child(even){background-color: #f2f2f2;}
+  
+.table tr:hover {background-color: #ddd;}
+  
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+  }
+  td a:hover{
+      color:blue;
+  }
+/* tr{
+     width: 70px;   
+}
+.table {	
+    padding: 20px;
+    border: none;
+}
+tr th{
+    padding: 20px;
+}
+tr td{
+    padding: 20px;
+}
+tr td:hover
+{
+    background-color: lightgray;
+} */
